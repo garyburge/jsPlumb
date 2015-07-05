@@ -19,13 +19,13 @@ In view
 ```php
 <?
 // ...
-
 garyburge\jsPlumb\AssetBundle::register($this);
 
 ```
 
 or as dependency in your asset bundle
-```php
+
+php
 <?
 // ...
 
