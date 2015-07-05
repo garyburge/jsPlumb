@@ -1,16 +1,42 @@
-# jsPlumb Component
+# Yii2-jsPlumb
 
-Shim [repository](https://github.com/laboro/jsPlumb) for the [jsPlumb](http://jsplumb.org/).
+A fork of JsPlumb Component [repository](https://github.com/laboro/jsPlumb) which repackages the assets of the jsPlumb library [jsPlumb](http://jsplumb.org/).
 
-Package Managers
-----------------
-[Composer](https://packagist.org/packages/laboro/jsPlumb): oro/jsplumb
+Installation
+------------
+Add in `composer.json`:
+```
+{
+    "require": {
+        "garyburge/yii2-jsPlumb": "*"
+    }
+}
+```
 
-## jsPlumb
-jsPlumb provides a means for a developer to visually connect elements on their web pages. It uses SVG or
-Canvas in modern browsers, and VML on IE 8 and below. The latest version is 1.7.5; this will be the final version
-(apart from bugfix releases in 1.7.x) to support IE8. The next major release will be 2.0.0, and this will work only
- in modern browsers that support SVG.
+Usage
+-----
+In view
+```php
+<?
+// ...
 
-If you're new to jsPlumb, please do take the time to read the [documentation](http://jsplumb.org/doc).
-There are a few integration issues that you should be aware of: z-index needs special attention, for example.
+garyburge\jsPlumb\AssetBundle::register($this);
+
+```
+
+or as dependency in your asset bundle
+```php
+<?
+// ...
+
+class AppAsset extends AssetBundle
+{
+	// ...
+
+	public $depends = [
+		// ...
+		'\rmrevin\yii\fontawesome\AssetBundle'
+	];
+}
+
+```
