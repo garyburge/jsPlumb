@@ -1,33 +1,24 @@
 {
-  "name": "oro/jsplumb",
-  "description": "jsPlumb provides a means for a developer to visually connect elements on their web pages.",
-  "keywords": ["javascript", "svg", "visual", "connectivity"],
-  "type": "component",
-  "homepage": "http://jsplumb.org/",
-  "license": [
-    "MIT",
-    "GPL-2.0"
-  ],
-  "support": {
-    "issues": "https://github.com/sporritt/jsPlumb/issues",
-    "source": "https://github.com/sporritt/jsPlumb"
-  },
-  "authors": [
-    {
-      "name": "Simon Porritt",
-      "email": "hello@jsplumbtoolkit.com"
+    "name": "garyburge/yii2-jsplumb",
+    "description": "A fork of https://github.com/laboro/jsPlumb, which is a fork of http://github.com/sporritt/jsPlumb, repackaged for Yii2.",
+    "keywords": ["yii2", "jsplumb"],
+    "homepage": "https://github.com/garyburge/yii2-jsplumb",
+    "type": "yii2-extension",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Gary Burge",
+            "email": "garyburge@garyburge.com",
+            "homepage": "http://garyburge.com/"
+        },
+        {
+            "name": "Simon Porritt",
+            "email": "hello@jsplumbtoolkit.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "garyburge\\jsplumb\\": ""
+        }
     }
-  ],
-  "extra": {
-    "component": {
-      "scripts": [
-        "dom.jsPlumb.js"
-      ],
-      "files": [
-        "dom.jsPlumb.min.js",
-        "jquery.jsPlumb.js",
-        "jquery.jsPlumb.min.js"
-      ]
-    }
-  }
 }
