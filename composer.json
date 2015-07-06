@@ -1,6 +1,6 @@
 {
-  "name": "oro/jsplumb",
-  "description": "jsPlumb provides a means for a developer to visually connect elements on their web pages.",
+  "name": "garyburge/jsplumb",
+  "description": "Repackage jsplumb with AssetBundle for use with Yii2.",
   "keywords": ["javascript", "svg", "visual", "connectivity"],
   "type": "component",
   "homepage": "http://jsplumb.org/",
