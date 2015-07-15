@@ -20,7 +20,7 @@ class AssetBundle extends \yii\web\AssetBundle
     /**
      * @inherit
      */
-    public $css = [
+    public $js = [
         'dom.jsPlumb.min.js',
         'query.jsPlumb.min.js'
     ];
