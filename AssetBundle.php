@@ -4,7 +4,7 @@
  * @author Gary Burge http://garyburge.com
  */
 
-namespace garyburge\yii\jsplumb;
+namespace garyburge\jsplumb;
 
 /**
  * Class AssetBundle
