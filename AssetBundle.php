@@ -22,6 +22,6 @@ class AssetBundle extends \yii\web\AssetBundle
      */
     public $js = [
         'dom.jsPlumb.min.js',
-        'query.jsPlumb.min.js'
+        'jquery.jsPlumb.min.js'
     ];
 }
