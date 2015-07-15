@@ -1,10 +1,10 @@
 <?php
 /**
  * AssetBundle.php
- * @author Revin Roman http://phptime.ru
+ * @author Gary Burge http://garyburge.com
  */
 
-namespace rmrevin\yii\fontawesome;
+namespace garyburge\yii\jsplumb;
 
 /**
  * Class AssetBundle
